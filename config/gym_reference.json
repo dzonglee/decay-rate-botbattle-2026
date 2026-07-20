@@ -1,0 +1,12 @@
+{
+ "n": 16,
+ "species0_mean": 11.56,
+ "species0_sd": 12.767,
+ "species1_mean": 6.023,
+ "species1_sd": 11.256,
+ "rounds_mode": 1400,
+ "rounds_all": [
+  1400
+ ],
+ "engine": "2026.1.13"
+}

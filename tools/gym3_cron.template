@@ -1,0 +1,26 @@
+# ============================================================================
+# feastgym-3 milestone cron TEMPLATE  (build now, ARM AT LAUNCH — not before)
+# ----------------------------------------------------------------------------
+# LAW 1 (mirrored batteries) and LAW 2 (ban-void) are baked into the battery it
+# calls: tools/gym3_battery.sh runs 2x(n/2) mirrored halves at --parallel 2 and
+# tools/gym3_batteryparse.py voids any non-SUCCESS/malformed game.
+#
+# Cadence: checks every 10 min. Archives a peak every 5 gens; fires a mirrored
+# elite-vs-champion battery every 30 gens (>= trigger, catch-up safe). The cron
+# only launches batteries (detached) and reads files — it never foreground-waits.
+#
+# ARM (run this the moment feastgym-3 is launched, after feastgym3.base exists):
+#   ( crontab -l 2>/dev/null; \
+#     echo '*/10 * * * * /bin/bash /Users/chrisli/Developer/competition/botbattle/tools/gym3_milestone.sh >> /Users/chrisli/Developer/competition/botbattle/mining/gym3_cron.log 2>&1' \
+#   ) | crontab -
+#
+# DISARM (when the run ends):
+#   crontab -l | grep -v gym3_milestone.sh | crontab -
+#
+# Outputs per milestone gNN:
+#   bots/peak_gNN.py                        (every 5 gens: best genome materialised)
+#   bots/gym3_elite_gNN.py                  (every 30 gens: elite under test)
+#   .agario_tourney/milestone_gNN/{A,B}/    (preserved per-half workspaces, LAW 1)
+#   mining/gym3_gNN_{A,B}.log               (tee'd tournament tables)
+#   mining/gym3_gNN_report.txt             (per-half + pooled + MASS DELTA + >+4 flag + gene readout)
+# ============================================================================

@@ -1,0 +1,13 @@
+{
+  "purpose": "mode-switch team ids; separate from reporting tier E>20",
+  "candidate_rule": "current leaderboard avgMass > 20; exclude teamId 35",
+  "hard_room_rule": "2 or more OTHER current >20 candidates",
+  "sample_rule": "take up to 300 games from current submission, then backfill only the missing games from immediately prior submissions until total n=300",
+  "current_submission_priority": true,
+  "team_sample_games": 300,
+  "minimum_hard_games": 100,
+  "minimum_hard_win_rate": 0.1875,
+  "maximum_hard_mean_rank": 3.0,
+  "refreshed_aest": "2026-07-16 16:57",
+  "source": "tools/meta_report.py --since 30300"
+}

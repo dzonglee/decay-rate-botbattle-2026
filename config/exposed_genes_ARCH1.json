@@ -1,0 +1,91 @@
+{
+ "_machine": "B / studio \u2014 ARCH-1 (2026-07-11, Chris-approved protocol + ChatGPT corrections): arch11 lunge-proofed chassis; 3 seeded nodes exposed (ON pinned 1.0 frozen), N3-N10 dormant-frozen; node-specific input bounds (acyclic); OP/A/B/TARGET categorical-mutated; GAIN spans negative+near-zero; node addition CONDITIONAL at milestone review (stability criteria), hedged 5/3/2/10 seeding, carryover reset at every structural transition.",
+ "ARCH_N0_OP": [
+  0,
+  10
+ ],
+ "ARCH_N0_A": [
+  0,
+  15
+ ],
+ "ARCH_N0_B": [
+  0,
+  15
+ ],
+ "ARCH_N0_K": [
+  0.2,
+  6.0
+ ],
+ "ARCH_N0_BIAS": [
+  -2.0,
+  2.0
+ ],
+ "ARCH_N0_TARGET": [
+  0,
+  6
+ ],
+ "ARCH_N0_GAIN": [
+  -1.5,
+  1.5
+ ],
+ "ARCH_N1_OP": [
+  0,
+  10
+ ],
+ "ARCH_N1_A": [
+  0,
+  16
+ ],
+ "ARCH_N1_B": [
+  0,
+  16
+ ],
+ "ARCH_N1_K": [
+  0.2,
+  6.0
+ ],
+ "ARCH_N1_BIAS": [
+  -2.0,
+  2.0
+ ],
+ "ARCH_N1_TARGET": [
+  0,
+  6
+ ],
+ "ARCH_N1_GAIN": [
+  -1.5,
+  1.5
+ ],
+ "ARCH_N2_OP": [
+  0,
+  10
+ ],
+ "ARCH_N2_A": [
+  0,
+  17
+ ],
+ "ARCH_N2_B": [
+  0,
+  17
+ ],
+ "ARCH_N2_K": [
+  0.2,
+  6.0
+ ],
+ "ARCH_N2_BIAS": [
+  -2.0,
+  2.0
+ ],
+ "ARCH_N2_TARGET": [
+  0,
+  6
+ ],
+ "ARCH_N2_GAIN": [
+  -1.5,
+  1.5
+ ],
+ "ARCH_SPLIT_THRESHOLD": [
+  0.3,
+  1.2
+ ]
+}

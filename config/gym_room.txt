@@ -1,0 +1,16 @@
+# config/gym_room.txt — the BREEDING-ROOM rotating bench (one seat per match).
+# ROOM LABEL (Chris's order 2026-07-10): "doctrine-diverse, contested-heavy vs census —
+#   14/57/29 experienced" (1 threat + 4 contested-class incl. 2 siblings + 2 fodder per
+#   candidate's 7 opponents). NOT census-exact; contested-heavy by design.
+# Full room: 3 candidates + 1 anchor (resolves from config/current_development_champion.txt,
+#   SAME single source of truth as milestones) + 1 fixed contested (split_feaster_v3)
+#   + 1 rotating bench seat (below; deterministic balanced draw (gen+match)%len, logged
+#   per match as "[bench] gN mM: bot") + simple_bot + naive_splitter.
+# ORDER OF RECORD: Chris 2026-07-10 rotating-bench order (4 amendments) — any change to
+#   this file requires an acknowledgment line in the next report.
+# EXCLUDED: bots/mimic_t1.py — provenance check FAILED (disk sha ddafa748... != vaulted
+#   kit gate 2e5489c0...); do not seat until re-vaulted.
+bots/split_feaster.py
+bots/gen51_feast.py
+bots/elite_g30.py
+bots/gen099_i19.py

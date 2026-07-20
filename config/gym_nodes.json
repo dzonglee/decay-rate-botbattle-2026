@@ -1,0 +1,4 @@
+[
+  {"name": "studio", "url": "https://bot.chrisverse.uk", "token_file": "~/.botapi_token"},
+  {"name": "wsl",    "url": "http://desktop-34tntnv.tail35f7fb.ts.net:8975", "token_file": "~/.botapi_wsl_token"}
+]

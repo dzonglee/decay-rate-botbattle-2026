@@ -1,0 +1,11 @@
+{
+  "_machine": "A / laptop — SPLIT-CYCLE ECONOMY (chassis gen576, all else frozen)",
+  "SPLIT_CYCLE_ON":     [0.0, 1.0],
+  "CYCLE_MIN_MASS":     [30.0, 60.0],
+  "CYCLE_TARGET_BLOBS": [4.0, 12.0],
+  "CYCLE_THREAT_CLEAR": [2.0, 20.0],
+  "FEAST_MIN_MASS":     [4.0, 20.0],
+  "FEAST_SLOT_SAT":     [0.3, 16.0],
+  "W_VIRUS_FEAST":      [0.0, 12.0],
+  "VIRUS_SLOT_EXP":     [0.0, 2.0]
+}
