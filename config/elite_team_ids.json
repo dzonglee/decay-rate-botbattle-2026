@@ -1,7 +1,0 @@
-{
-  "Bot Battle": {"team_id": 5, "avg": 28.9, "n": 942, "submission_id": 1633, "sample_current": 300, "sample_prior": 0, "hard_n": 243, "hard_win": 0.22, "hard_rank": 2.37},
-  "team": {"team_id": 15, "avg": 26.1, "n": 20, "submission_id": 1829, "sample_current": 5, "sample_prior": 295, "hard_n": 164, "hard_win": 0.21, "hard_rank": 2.84},
-  "Washed CS Students": {"team_id": 1, "avg": 25.2, "n": 1422, "submission_id": 1766, "sample_current": 300, "sample_prior": 0, "hard_n": 242, "hard_win": 0.29, "hard_rank": 2.92},
-  "Banana": {"team_id": 9, "avg": 24.2, "n": 1165, "submission_id": 1779, "sample_current": 300, "sample_prior": 0, "hard_n": 231, "hard_win": 0.31, "hard_rank": 2.37},
-  "Ninja": {"team_id": 73, "avg": 22.4, "n": 415, "submission_id": 1797, "sample_current": 300, "sample_prior": 0, "hard_n": 246, "hard_win": 0.22, "hard_rank": 2.46}
-}

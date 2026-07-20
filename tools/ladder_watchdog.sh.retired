@@ -1,9 +1,0 @@
-#!/bin/bash
-# V3 watchdog: resurrect the ladder evolver + portal if either dies. Resume-never-reset.
-cd /Users/chrisli/Developer/competition/botbattle
-source /Users/chrisli/Developer/competition/evolution-2/.venv/bin/activate
-while :; do
-  pgrep -f "[-]u tools/ladder_v3.py" > /dev/null || { nohup python3 -u tools/ladder_v3.py >> logs/ladder_v3.log 2>&1 & echo "$(date) resurrect evolver" >> logs/ladder_watchdog.log; }
-  lsof -ti :8973 > /dev/null 2>&1 || { nohup python3 portal/server.py >> logs/portal.log 2>&1 & echo "$(date) resurrect portal" >> logs/ladder_watchdog.log; }
-  sleep 60
-done
